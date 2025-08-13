@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<NoWarn>8618</NoWarn>
+
+		<PackageId>AngelStack.DomainDrivenDesign.Abstractions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Gabriel W. Alonso</Authors>
+		<Company>AngelStack</Company>
+		<PackageDescription>Abstractions and helper extensions for building Domain-Driven Design projects.</PackageDescription>
+		<PackageTags>utilities;shared;common</PackageTags>
+		<RepositoryUrl>https://github.com/archangel-luke128/DomainDrivenDesign.Abstractions</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>
