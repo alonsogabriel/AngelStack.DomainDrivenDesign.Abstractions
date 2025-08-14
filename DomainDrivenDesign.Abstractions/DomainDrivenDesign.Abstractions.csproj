@@ -7,17 +7,17 @@
 		<NoWarn>8618</NoWarn>
 
 		<PackageId>AngelStack.DomainDrivenDesign.Abstractions</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Gabriel W. Alonso</Authors>
 		<Company>AngelStack</Company>
 		<PackageDescription>Abstractions and helper extensions for building Domain-Driven Design projects.</PackageDescription>
-		<PackageTags>utilities;shared;common</PackageTags>
+		<PackageTags>DDD;Utilities;Shared;Common</PackageTags>
 		<RepositoryUrl>https://github.com/archangel-luke128/DomainDrivenDesign.Abstractions</RepositoryUrl>
-		<PackageIcon>angelstack-logo.png</PackageIcon>
+		<PackageIcon>logo.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="angelstack-logo.png" Pack="true" PackagePath="" />
+		<None Include="logo.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
