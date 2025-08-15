@@ -1,7 +1,6 @@
 ﻿using AngelStack.Common.Claims;
-using DomainDrivenDesign.Abstractions.Interfaces;
 
-namespace DomainDrivenDesign.Abstractions.Entities;
+namespace AngelStack.DomainDrivenDesign.Abstractions;
 
 public abstract class AbstractEntity<T>
 {

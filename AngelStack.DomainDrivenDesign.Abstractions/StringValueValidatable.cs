@@ -1,7 +1,7 @@
 ﻿using AngelStack.Common.Strings;
 using System.Reflection;
 
-namespace DomainDrivenDesign.Abstractions.Interfaces;
+namespace AngelStack.DomainDrivenDesign.Abstractions;
 
 public abstract record StringValueValidatable : StringValue
 {

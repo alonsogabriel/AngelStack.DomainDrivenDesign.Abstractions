@@ -1,6 +1,6 @@
 ﻿using AngelStack.Common.Guards;
 using AngelStack.Common.Strings;
-using DomainDrivenDesign.Abstractions.Interfaces;
+using AngelStack.DomainDrivenDesign.Abstractions;
 
 namespace DomainDrivenDesign.Abstractions.Extensions;
 

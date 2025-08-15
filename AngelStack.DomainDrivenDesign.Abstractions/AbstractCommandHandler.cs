@@ -1,4 +1,4 @@
-﻿namespace DomainDrivenDesign.Abstractions.Interfaces;
+﻿namespace AngelStack.DomainDrivenDesign.Abstractions;
 
 public abstract class AbstractCommandHandler<TCommand, TResponse> : ICommandHandler<TCommand, TResponse>
     where TCommand : class, ICommand<TResponse>
