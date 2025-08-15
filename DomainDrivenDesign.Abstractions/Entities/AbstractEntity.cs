@@ -1,4 +1,4 @@
-﻿using DomainDrivenDesign.Abstractions.Attributes;
+﻿using AngelStack.Common.Claims;
 using DomainDrivenDesign.Abstractions.Interfaces;
 
 namespace DomainDrivenDesign.Abstractions.Entities;
