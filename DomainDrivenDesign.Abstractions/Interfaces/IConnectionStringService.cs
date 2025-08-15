@@ -2,5 +2,5 @@
 
 public interface IConnectionStringService
 {
-    string? GetAsync(string name, CancellationToken cancellationToken = default);
+    Task<string?> GetAsync(string name, CancellationToken cancellationToken = default);
 }

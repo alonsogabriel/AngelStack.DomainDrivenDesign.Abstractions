@@ -7,7 +7,7 @@
 		<NoWarn>8618</NoWarn>
 
 		<PackageId>AngelStack.DomainDrivenDesign.Abstractions</PackageId>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Authors>Gabriel W. Alonso</Authors>
 		<Company>AngelStack</Company>
 		<PackageDescription>Abstractions and helper extensions for building Domain-Driven Design projects.</PackageDescription>
