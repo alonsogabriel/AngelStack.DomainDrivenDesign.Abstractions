@@ -7,10 +7,10 @@
 		<NoWarn>8618</NoWarn>
 
 		<PackageId>AngelStack.DomainDrivenDesign.Abstractions</PackageId>
-		<Version>1.0.4</Version>
+		<Version>1.0.5</Version>
 		<Authors>Gabriel W. Alonso</Authors>
 		<Company>AngelStack</Company>
-		<PackageDescription>Abstractions and helper extensions for building Domain-Driven Design projects.</PackageDescription>
+		<PackageDescription>Provides interfaces and abstract classes to support Domain-Driven Design projects.</PackageDescription>
 		<PackageTags>DDD;Utilities;Shared;Common</PackageTags>
 		<RepositoryUrl>https://github.com/alonsogabriel/DomainDrivenDesign.Abstractions</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -18,8 +18,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="logo.png" Pack="true" PackagePath="" />
 		<None Include="..\README.md" Pack="true" PackagePath="" />
+		<None Include="..\logo.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="AngelStack.Common" Version="1.0.0" />
 	</ItemGroup>
 
 </Project>

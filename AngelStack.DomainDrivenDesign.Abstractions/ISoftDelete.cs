@@ -1,4 +1,4 @@
-﻿namespace DomainDrivenDesign.Abstractions.Interfaces;
+﻿namespace AngelStack.DomainDrivenDesign.Abstractions;
 
 public interface ISoftDelete
 {

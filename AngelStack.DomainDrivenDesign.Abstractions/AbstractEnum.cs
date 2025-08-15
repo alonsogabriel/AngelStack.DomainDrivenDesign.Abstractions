@@ -1,4 +1,4 @@
-﻿namespace DomainDrivenDesign.Abstractions.Entities;
+﻿namespace AngelStack.DomainDrivenDesign.Abstractions;
 
 public abstract record AbstractEnum<T>(int Value, string Name)
     where T : AbstractEnum<T>
