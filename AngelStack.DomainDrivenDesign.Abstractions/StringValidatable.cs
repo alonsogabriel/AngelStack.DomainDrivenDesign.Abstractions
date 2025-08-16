@@ -3,9 +3,9 @@ using System.Reflection;
 
 namespace AngelStack.DomainDrivenDesign.Abstractions;
 
-public abstract record StringValueValidatable : StringValue
+public abstract record StringValidatable : StringValue
 {
-    public StringValueValidatable(string value) : base(value) { }
+    public StringValidatable(string value) : base(value) { }
 
     protected override void Validate()
     {
