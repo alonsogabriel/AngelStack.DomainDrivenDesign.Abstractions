@@ -5,6 +5,7 @@ namespace AngelStack.DomainDrivenDesign.Abstractions;
 
 public abstract record StringValidatable : StringValue
 {
+    protected StringValidatable() { }
     public StringValidatable(string value) : base(value) { }
 
     protected override void Validate()

@@ -2,6 +2,7 @@
 
 public abstract record StringValue
 {
+    protected StringValue() { }
     public StringValue(string value)
     {
         Value = value;
