@@ -12,4 +12,9 @@ public abstract record StringValue
     public int Length => Value.Length;
 
     protected abstract void Validate();
+
+    public override string ToString()
+    {
+        return Value;
+    }
 }
