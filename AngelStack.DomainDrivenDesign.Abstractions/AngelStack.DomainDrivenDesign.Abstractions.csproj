@@ -7,7 +7,7 @@
 		<NoWarn>8618</NoWarn>
 
 		<PackageId>AngelStack.DomainDrivenDesign.Abstractions</PackageId>
-		<Version>1.0.8</Version>
+		<Version>1.0.7</Version>
 		<Authors>Gabriel W. Alonso</Authors>
 		<Company>AngelStack</Company>
 		<PackageDescription>Provides interfaces and abstract classes to support Domain-Driven Design projects.</PackageDescription>
